@@ -1,0 +1,153 @@
+{
+  // workbench
+  "workbench.editorAssociations": {
+    "*.ipynb": "default"
+  },
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.iconTheme": "ayu",
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5caeef",
+    "editorBracketHighlight.foreground2": "#dfb976",
+    "editorBracketHighlight.foreground3": "#c172d9",
+    "editorBracketHighlight.foreground4": "#4fb1bc",
+    "editorBracketHighlight.foreground5": "#97c26c",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+  "workbench.editor.autoLockGroups": {
+    "jsProfileVisualizer.cpuprofile.table": true,
+    "jsProfileVisualizer.heapprofile.table": true
+  },
+
+  // editor
+  "editor.fontSize": 22,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code PL', 'Ubuntu Mono', 'Fira Mono Regular','Source Code Pro', Consolas, 'Courier New', monospace",
+  "editor.cursorBlinking": "expand",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.linkedEditing": true,
+
+  // terminal
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "overrideName": true,
+      "color": "terminal.ansiBlack",
+      "icon": "terminal-powershell",
+      "args": []
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "git-branch"
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-ubuntu"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.confirmOnExit": "always",
+  "terminal.integrated.fontFamily": "Hurmit Nerd Font Mono",
+  "terminal.integrated.fontWeight": "200",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // remote
+  "remote.SSH.configFile": "C:\\Users\\lyt\\.ssh\\config",
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.remotePlatform": {},
+
+  // languages
+  "go.formatTool": "goimports",
+  "go.autocompleteUnimportedPackages": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // extensions
+  "vetur.grammar.customBlocks": {
+    "docs": "md",
+    "i18n": "json"
+  },
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "javascript.format.semicolons": "remove",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "eslint.lintTask.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "go.toolsManagement.autoUpdate": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "files.exclude": {
+    "**/.node_modules": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
